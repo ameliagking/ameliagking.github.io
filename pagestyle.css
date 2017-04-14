@@ -7,9 +7,21 @@ img{
 
 ul{
 	color: grey;
-	list-style: none;
+	list-style-type: none;
+	margin-top: 4px;
+	padding: 0;
+	overflow: hidden;
+	background-color: lightgrey;
 }
-
+li{
+	float: left;
+}
+li a{
+	display: block;
+    text-align: center;
+	padding: 14px 30px;
+    text-decoration: none;
+}
 a:link{
 	text-decoration: none;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
